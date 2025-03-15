@@ -1,0 +1,29 @@
+.my-stuff-page {
+    background-color: #0a0f1c;
+    padding: 20px 40px;
+  }
+  
+  .my-stuff-page h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .content-section {
+    margin-bottom: 30px;
+  }
+  
+  .content-section h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .movie-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }

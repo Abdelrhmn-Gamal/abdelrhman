@@ -1,0 +1,33 @@
+.header {
+    background: linear-gradient(to bottom, #0f171e, #0a0f1c);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #00a8e1; /* Amazon Prime blue */
+  }
+  
+  .header nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .header nav a:hover {
+    color: #00a8e1;
+  }

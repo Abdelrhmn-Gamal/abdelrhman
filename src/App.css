@@ -1,0 +1,57 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #0f171e;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #0f171e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-page, .movies-page, .my-stuff-page {
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.movie-card {
+  width: 200px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  color: #0f171e;
+}
